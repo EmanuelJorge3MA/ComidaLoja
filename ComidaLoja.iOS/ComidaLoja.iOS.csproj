@@ -142,4 +142,7 @@
       <Name>ComidaLoja</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\img2.png" />
+  </ItemGroup>
 </Project>
