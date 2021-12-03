@@ -27,7 +27,7 @@ namespace ComidaLoja.Views
             var selectedProduct = e.CurrentSelection.FirstOrDefault() as FoodItem;
             if (selectedProduct == null)
                 return;
-            await Navigation.PushModalAsync(new ProductsViewModel(selectedProduct));
+            await Navigation.PushModalAsync(new ProductDetailsView(selectedProduct));
             ((CollectionView)sender).SelectedItem = null;
         }
     }
